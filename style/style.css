@@ -1,0 +1,133 @@
+body
+   {
+        margin: 0;
+        padding: 0;
+    }
+div
+   {
+       box-sizing: border-box;
+    }
+.frm
+    {
+        width: 500px;
+        overflow: hidden;
+        margin: auto;
+        box-shadow: 1px 1px 3px 0 grey;
+        margin-top: 20px;
+        padding: 20px;
+    }
+label
+    {
+        float: left;
+        width: 100%;
+    }   
+.frm-control
+    {
+        width: 100%;
+        padding: 8px;
+        float: left;
+        border: 1px solid lightblue;
+        box-sizing: border-box;
+    }
+table
+    {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+table tr th
+    {
+        padding: 10px;
+        background-color: lightcoral;
+        border: 1px solid black;
+    }
+table tr td
+    {
+        padding: 5px;
+        border: 1px solid darkgrey;
+    }
+table tr td img
+    {
+        width: 50px;
+        height: 50px;
+    }
+.btn
+    {
+        float: left;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+.btn-post
+    {
+        background-color: tomato;
+        color: white;
+    }
+.btn-post:hover
+    {
+        background-color :blue;
+    }
+.right
+    {
+       float: right;
+    }
+.img-box
+    {
+        width: 100px;
+        height: 100px;
+        float: left;
+        border: 1px solid #333;
+        background-image: url("../assets/image/34.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+.img-box input
+    {
+        height: 100%;
+        width: 100%;
+        float: left;
+        opacity: 0;
+        cursor: pointer;
+    }
+.loading-icon
+    {
+        width: 25px;
+        height: 25px;
+        float: left;
+        background-image: url("../assets/image/3.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: blue;
+
+    }
+.menu-bar
+    {
+        background-color: brown;
+        width: 960px;
+        height: 40px;
+        margin: auto;
+    }
+.menu-bar ul
+    {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+.menu-bar ul li
+    {
+        float: left;
+    }
+.menu-bar ul li a
+    {
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        color: white;
+    }
